@@ -1,18 +1,15 @@
 /*
-  jQuery.dropJ plugin
-  Version 0.0.4 - 20081010
+  jQuery.dropCap plugin
+  Version 1.0.0 - 20140430
   @requires jQuery v1.2.3, recommends v1.2.6
-
-  Original project was: http://code.google.com/p/jquery-dropj/
-  By Ashley Pond V & Licensed under the Artistic 2.0 - http://www.perlfoundation.org/artistic_license_2_0
-  Ported with GNU GPL 3.0 Licence (FSF compatible)
+  By Abhishek Ghosh & Licensed under GNU GPL 3.0 Licence
 */
 
 (function($) {
-// http://unicode.org/versions/Unicode4.1.0/
-//        CJK unified -> 4E00-9FFF
-// Korean _syllables_ -> AC00-D7A3
-//     Latin extended -> 00C0-02B8
+// Unicode resource - http://unicode.org/versions/Unicode4.1.0/
+// CJK unified => 4E00-9FFF
+// Korean _syllables_ => AC00-D7A3
+// Latin extended => 00C0-02B8
 var CJKrx = /^\s*([^\uAC00-\uD7A3\u4E00-\u9FFF]?[\u00C0-\u02B8\uAC00-\uD7A3\u4E00-\u9FFF])(.*)/im;
 var ExtRx = /^\s*([^a-z\u00C0-\u02B8]?[a-z\u00C0-\u02B8])(.*)/im;
 var ASCIIrx = /^\s*(\W?[a-z])(.*)/im;
@@ -26,7 +23,7 @@ var Mode = {
 };
 
 var dCSS = {
-   opacity:0.7           // Big chars appear darker.
+   opacity:0.7           // Big charector will appear darker.
   ,padding:0
   ,display:"block"
   ,textAlign:"right"
