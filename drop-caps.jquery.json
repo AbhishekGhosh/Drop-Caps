@@ -1,0 +1,35 @@
+{
+    "name": "drop-cap",
+    "title": "jQuery Drop Caps",
+    "description": "jQuery plugin to create highly configurable drop cap effect for local fonts and web fonts. This version of Drop Caps is optimized for use with Web Fonts.",
+    "keywords": [
+        "dropcap",
+        "jquery",
+        "ui",
+		"style",
+		"typography",
+        "css",
+        "fonts",
+        "font"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Abhishek Ghosh",
+        "url": "http://stefanstraesser.eu/",
+        "email": "admin@thecustomizewindows.com"
+    },
+    "licenses": [
+        {
+            "type": "GPL-3.0",
+            "url": "http://www.gnu.org/licenses/gpl.html"
+        }
+    ],
+    "homepage": "https://github.com/AbhishekGhosh/Drop-Caps",
+    "docs": "http://abhishekghosh.github.io/Drop-Caps/",
+    "demo": "http://abhishekghosh.github.io/Drop-Caps/",
+    "dependencies": {
+        "jquery": ">=1.7",
+        "jquery ui": ">=1.9",
+        "bootstrap": "3.1.1"
+    }
+}
